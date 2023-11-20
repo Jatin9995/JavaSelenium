@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Master Test Suit">
+	
+	<suit-files>
+	
+	<suite-file path="J:\eclipse_Jdrive\JavaSelenium\BatchTesting_FunctionalTesting.xml"/>	
+	<suite-file path="J:\eclipse_Jdrive\JavaSelenium\BatchTesting_SanityTesting.xml"/>
+	
+	</suit-files>
+	
+	
+</suite>
