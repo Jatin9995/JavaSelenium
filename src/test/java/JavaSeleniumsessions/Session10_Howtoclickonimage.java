@@ -3,6 +3,7 @@ package JavaSeleniumsessions;
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -12,7 +13,7 @@ public class Session10_Howtoclickonimage {
 	public static void main(String[] args) {
 
 		//Open Chrome 
-		System.setProperty("webdriver.chrome.driver", "J:\\eclipse_Jdrive\\Chrome\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "J:\\eclipse_Jdrive\\Chrome\\Chrome119\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		
 		//Maximize the window size
@@ -35,10 +36,9 @@ public class Session10_Howtoclickonimage {
 		
 		else {
 			System.out.println("Test Failed");
-
 		}
 		
-		
+		driver.close();
 	}
 
 }

@@ -45,7 +45,7 @@ public class Session32TestNGDataProviders {
 		@Test(dataProvider="dataset")  //dataprovide used here bcoz this test case is taking the data from dataprovider.
 		public void Googlesearch(String State, String Monumets) {   //We have to search State and Monuments and have to take data from dataprovuider
 			
-			System.setProperty("webdriver.chrome.driver","J:\\eclipse_Jdrive\\Chrome\\Chrome2\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver","J:\\\\eclipse_Jdrive\\\\Chrome\\\\Chrome119\\\\chromedriver.exe");
 	
 			WebDriver driver=new ChromeDriver();
 			driver.manage().window().maximize();

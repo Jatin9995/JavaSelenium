@@ -33,7 +33,7 @@ public class Session11_Doubleclick {
 		////created object of action class to double click bcoz action class is used in mouse operations
 		Actions act=new Actions(driver);//created object of an action class
 		act.doubleClick(button).build().perform();//double click is used for double click operation
-		
+	
 		
 		
 		

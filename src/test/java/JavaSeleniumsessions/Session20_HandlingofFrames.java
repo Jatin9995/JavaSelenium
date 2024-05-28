@@ -32,7 +32,7 @@ driver.navigate().to("https://www.selenium.dev/selenium/docs/api/java/index.html
 		//if want to click on another web element which is available in different frame then you have to first come into the main window
 //after coming into the main window you have to switch to another frame.
 	//process to come into the main window
-driver.switchTo().defaultContent();//this method will move the control from frame to either frameset or in html dom
+driver.switchTo().defaultContent();//this method will move the control from frame1 to either frameset or in html dom
 
 //process to enter into frame 2
 	WebElement frame2=driver.findElement(By.name("packageFrame"));

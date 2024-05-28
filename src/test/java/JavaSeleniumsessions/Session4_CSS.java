@@ -28,7 +28,7 @@ driver.findElement(By.cssSelector("input.submit-button")).click();
 String currentWindowhandle=driver.getWindowHandle();
 driver.switchTo().window(currentWindowhandle);
 
-//Locate add to cart button by tab, class & attribute syntax--tag.value of class[attribute=value of attribute]
+//Locate add to cart button by tag, class & attribute syntax--tag.value of class[attribute=value of attribute]
 driver.findElement(By.cssSelector("button.btn[name=add-to-cart-sauce-labs-backpack]")).click();
 
 //Locate add to cart using substring method.

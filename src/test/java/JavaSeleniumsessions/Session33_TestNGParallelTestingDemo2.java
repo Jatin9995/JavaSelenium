@@ -17,7 +17,7 @@ public class Session33_TestNGParallelTestingDemo2 {
 
 
 
-		System.setProperty("webdriver.chrome.driver", "J:\\eclipse_Jdrive\\Chrome\\Chrome2\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "J:\\eclipse_Jdrive\\Chrome\\Chrome119\\chromedriver.exe");
 
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();

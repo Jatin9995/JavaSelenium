@@ -11,6 +11,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import com.github.dockerjava.api.model.Driver;
+
 public class Session16_Howtocapturescreenshot {
 
 	public static void main(String[] args) throws IOException {
@@ -27,7 +29,7 @@ public class Session16_Howtocapturescreenshot {
 				//Step 3:-Copy file to desired location by using library "Apache Commons IO-fileUtils".
 				
 				//Launch Chrome browser
-			System.setProperty("webdriver.chrome.driver", "C:\\chromedrive\\crome\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "J:\\eclipse_Jdrive\\Chrome\\Chrome119\\chromedriver.exe");
 			WebDriver driver=new ChromeDriver();
 						
 				//Maximize the window
@@ -40,20 +42,20 @@ public class Session16_Howtocapturescreenshot {
 			
 		//Step1:- Convert web driver object to "TakeScreenShot" interface because webdriver object don't have the access to take the screenshot.
 			//thats why we need to convert webdriver object to take screenshot.
-			//TakesScreenshot screenshot=((TakesScreenshot)driver);
-			
+			TakesScreenshot screenshot=((TakesScreenshot)driver);
+//			
 			//Step 2:-Call getScreenShotAs method to create image file.
 			//thi will return an image which we will store in src file type and import the  package
-		//File src=screenshot.getScreenshotAs(OutputType.FILE);
+		File src=screenshot.getScreenshotAs(OutputType.FILE);
 
 		//Prepare a destintion where you want to save the image file.
-		//File Destination=new File("C:\\Users\\jatin\\eclipse-workspace\\Newprojest\\Screenshot\\Fullscreenpage.png");
+		File Destination=new File("J:\\eclipse_Jdrive\\JavaSelenium\\Newprojest\\Fullscreenpage.png");
 
 
 		//Step 3:-Copy file to desired location by using library "Apache Commons IO-fileUtils". 
 		// Now copy the src file to destination.
 
-		//FileUtils.copyFile(src, Destination);
+		FileUtils.copyFile(src, Destination);
 
 
 			
@@ -82,21 +84,21 @@ public class Session16_Howtocapturescreenshot {
 
 
 		//Step1:- To take the screenshot of webelement, you have to create an object of that webelement.A element work as an webelement
-			WebElement section=driver.findElement(By.xpath("//button[@name='dblClick']"));
-			
-			//Step 2:-Call getScreenShotAs method to create image file.
-			//this will return an image which we will store in src file type and import the  package
-		File src=section.getScreenshotAs(OutputType.FILE);
-
-		//Prepare a destintion where you want to save the image file.
-		File Destination=new File("C:\\Users\\jatin\\eclipse-workspace\\Newprojest\\Screenshot\\webelement.png");
+//			WebElement section=driver.findElement(By.xpath("//button[@name='dblClick']"));
+//			
+//			//Step 2:-Call getScreenShotAs method to create image file.
+//			//this will return an image which we will store in src file type and import the  package
+//		File src=section.getScreenshotAs(OutputType.FILE);
+//
+//		//Prepare a destintion where you want to save the image file.
+//		File Destination=new File("C:\\Users\\jatin\\eclipse-workspace\\Newprojest\\Screenshot\\webelement.png");
 
 
 		//Step 3:-Copy file to desired location by using library "Apache Commons IO-fileUtils". 
 		//Now copy the src file to destination.
 
-		FileUtils.copyFile(src, Destination);
-		
+//		FileUtils.copyFile(src, Destination);
+		driver.close();
 	}
 
 }

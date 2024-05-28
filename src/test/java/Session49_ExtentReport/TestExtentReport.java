@@ -1,22 +1,21 @@
 package Session49_ExtentReport;
 
-import org.apache.commons.collections.functors.IfClosure;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
-import com.tigervnc.rfb.Configuration;
+
 
 public class TestExtentReport {
 
 	public static void main(String[] args) {
 
 //extent report is the way to show the data in report format in html. extent report interactive report produce karta  hai.
-		//dashboard view deta hai, graphical view deta hai, screenshot capture karta haiand emailable report deta hai.
+		//dashboard view deta hai, graphical view deta hai, screenshot capture karta hai and emailable report deta hai.
 		
-ExtentHtmlReporter reporter=new ExtentHtmlReporter("J:\\eclipse_Jdrive\\JavaSelenium\\Extentreport\\testreport.html"); // This class is used to give the location of the report
+ExtentHtmlReporter reporter=new ExtentHtmlReporter("J:\\eclipse_Jdrive\\JavaSelenium\\Extentreport\\testreport2.html"); // This class is used to give the location of the report
 ExtentReports reports=new ExtentReports();//Extent report report bnata hai.
 
 //If you want to add environment details of the report

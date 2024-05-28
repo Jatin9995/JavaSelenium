@@ -12,9 +12,9 @@ public class Session47_HeadlessBrowser {
 	
 	public void launchHeadlessbroswer() {
 		
-		System.setProperty("webdriver.chrome.driver", "J:\\eclipse_Jdrive\\Chrome\\Chrome2\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "J:\\eclipse_Jdrive\\Chrome\\Chrome119\\chromedriver.exe");
 		ChromeOptions options=new ChromeOptions();
-		options.setHeadless(true);
+options.addArguments("headless");
 		WebDriver driver=new ChromeDriver(options);
 		
 driver.navigate().to("https://www.saucedemo.com/v1/");

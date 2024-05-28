@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test/sampletest">
+  <parameter name="Keyword1" value="Selenium"></parameter>
+  
+  <classes>
+	  
+	  <class name="JavaSeleniumsessions.test">
+		  
+		  </class>
+  </classes>
+  </test>
+	  
+  
+  
+  <test thread-count="5" name="Test/sampletest2">
+  <parameter name="Keyword1" value="Java"></parameter>
+  
+  <classes>
+	  
+	  <class name="JavaSeleniumsessions.test">
+		  
+		  </class>
+	  
+	  
+  </classes>
+  
+  </test> <!-- Test/sampletest -->
+</suite> <!-- Suite -->

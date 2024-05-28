@@ -1,6 +1,8 @@
 package JavaSeleniumsessions;
 
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -28,13 +30,15 @@ public class Session33_TestNGParallelTestingDemo1 {
 
 
 
-		System.setProperty("webdriver.chrome.driver", "J:\\eclipse_Jdrive\\Chrome\\Chrome2\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "J:\\eclipse_Jdrive\\Chrome\\Chrome119\\chromedriver.exe");
 
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.navigate().to("https://www.saucedemo.com/v1/");
+		driver.navigate().to("https://www.saucedemo.com/");
 
 		//Verify title of the web site
+		
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
 		Assert.assertEquals(driver.getTitle(), "Swag Labs");
 		driver.quit();
@@ -51,7 +55,7 @@ public class Session33_TestNGParallelTestingDemo1 {
 
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.navigate().to("https://www.saucedemo.com/v1/");
+		driver.navigate().to("https://www.saucedemo.com/");
 
 		//Verify logo of the web site
 

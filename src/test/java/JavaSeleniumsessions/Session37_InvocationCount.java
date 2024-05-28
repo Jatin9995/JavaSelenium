@@ -1,3 +1,4 @@
+
 package JavaSeleniumsessions;
 
 import org.testng.ITestContext;
@@ -15,7 +16,7 @@ public class Session37_InvocationCount {
 	public void Testmethod1(ITestContext context) {
 		
 		int currentinvocation=context.getAllTestMethods()[0].getCurrentInvocationCount();  //getAllTestMethods()[0].getCurrentInvocationCount() it is used to know the current method which is executing
-		System.out.println("Executing "  +  currentinvocation);
+				System.out.println("Executing "  +  currentinvocation);
 		
 		System.out.println("Test method 1...........");
 	}

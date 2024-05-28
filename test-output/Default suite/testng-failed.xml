@@ -3,11 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Session39_POM.CallPOM">
+      <class name="Session49_ExtentReport.ConfigExtentReport">
         <methods>
-          <include name="loginPage"/>
+          <include name="closetest"/>
+          <include name="GetResult"/>
+          <include name="initExtentReport"/>
+          <include name="Logintest2"/>
         </methods>
-      </class> <!-- Session39_POM.CallPOM -->
+      </class> <!-- Session49_ExtentReport.ConfigExtentReport -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

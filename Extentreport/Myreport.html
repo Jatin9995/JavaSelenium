@@ -15,7 +15,7 @@
 
 		<link href='https://cdn.rawgit.com/anshooarora/extentreports-java/b4a58fcfd1e137bd9287244035a7c80d3d73b3af/dist/css/extent.css' type='text/css' rel='stylesheet' />
 	
-	<title>ExtentReports</title>
+	<title>Extent report file</title>
 
 	<style type='text/css'>
 	</style>
@@ -47,7 +47,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>07/55/2023, 01:55:49</span>
+                    <span class='label suite-start-time blue darken-3'>28/51/2024, 03:51:16</span>
 				</a>
 			</li>
 			<li>
@@ -139,10 +139,10 @@
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='33.333%'><span class='strong'>1</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='40%'><span class='strong'>2</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='66.667%'>2</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='60%'>3</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -160,14 +160,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>Login Test</span>
-						<span class='test-time'>07/55/2023, 01:55:49</span>
+						<span class='test-time'>28/51/2024, 03:51:17</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>07/55/2023, 01:55:49</span>
-	<span class='label end-time'>07/55/2023, 01:55:54</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 4s+983ms</span>
+	<span class='label start-time'>28/51/2024, 03:51:17</span>
+	<span class='label end-time'>28/51/2024, 03:51:25</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 7s+928ms</span>
 </div>
 	<div class='test-steps'>
 		<table class='bordered table-results'>
@@ -181,8 +181,13 @@
 			<tbody>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>1:55:54 AM</td>
+					<td class='timestamp'>3:51:25 AM</td>
 					<td class='step-details'>Login title verified</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>3:51:25 AM</td>
+					<td class='step-details'><span class='label white-text green'>Login pass</span></td>
 				</tr>
 			</tbody>
 		</table>
@@ -194,14 +199,14 @@
 				<li class='test displayed active  fail' status='fail' bdd='false' test-id='2'>
 					<div class='test-heading'>
 						<span class='test-name'>Login Test2</span>
-						<span class='test-time'>07/55/2023, 01:55:54</span>
+						<span class='test-time'>28/51/2024, 03:51:25</span>
 						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>07/55/2023, 01:55:54</span>
-	<span class='label end-time'>07/55/2023, 01:55:58</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 4s+110ms</span>
+	<span class='label start-time'>28/51/2024, 03:51:25</span>
+	<span class='label end-time'>28/51/2024, 03:51:35</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 9s+580ms</span>
 </div>
 	<div class='test-steps'>
 		<table class='bordered table-results'>
@@ -215,7 +220,7 @@
 			<tbody>
 				<tr class='log' status='fail'>
 					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-					<td class='timestamp'>1:55:58 AM</td>
+					<td class='timestamp'>3:51:35 AM</td>
 					<td class='step-details'><pre>java.lang.AssertionError: expected [Swag Lab] but found [Swag Labs]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
@@ -223,7 +228,7 @@
 	at org.testng.Assert.assertEquals(Assert.java:122)
 	at org.testng.Assert.assertEquals(Assert.java:629)
 	at org.testng.Assert.assertEquals(Assert.java:639)
-	at Session49_ExtentReport.ConfigExtentReport.Logintest2(ConfigExtentReport.java:64)
+	at Session49_ExtentReport.ConfigExtentReport.Logintest2(ConfigExtentReport.java:68)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -256,8 +261,13 @@
 				</tr>
 				<tr class='log' status='fail'>
 					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-					<td class='timestamp'>1:55:58 AM</td>
-					<td class='step-details'>Lohin title not verified</td>
+					<td class='timestamp'>3:51:35 AM</td>
+					<td class='step-details'>Login title not verified</td>
+				</tr>
+				<tr class='log' status='fail'>
+					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+					<td class='timestamp'>3:51:35 AM</td>
+					<td class='step-details'><span class='label white-text red'>Login Failed</span></td>
 				</tr>
 			</tbody>
 		</table>
@@ -335,7 +345,7 @@
                                         </thead>
                                         <tbody>
                                                     <tr>
-                                                        <td>07/55/2023, 01:55:54</td>
+                                                        <td>28/51/2024, 03:51:25</td>
                                                         <td class='linked' test-id='2'>Login Test2</td>
                                                         <td><pre><pre>java.lang.AssertionError: expected [Swag Lab] but found [Swag Labs]
 	at org.testng.Assert.fail(Assert.java:99)
@@ -344,7 +354,7 @@
 	at org.testng.Assert.assertEquals(Assert.java:122)
 	at org.testng.Assert.assertEquals(Assert.java:629)
 	at org.testng.Assert.assertEquals(Assert.java:639)
-	at Session49_ExtentReport.ConfigExtentReport.Logintest2(ConfigExtentReport.java:64)
+	at Session49_ExtentReport.ConfigExtentReport.Logintest2(ConfigExtentReport.java:68)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -405,25 +415,25 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>3</div>
+					<div class='panel-lead'>5</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>07/55/2023, 01:55:49</div>
+					<div class='panel-lead'>28/51/2024, 03:51:16</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>07/55/2023, 01:55:58</div>
+			 		<div class='panel-lead'>28/51/2024, 03:51:35</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>9,722ms</div>
+					<div class='panel-lead'>18,668ms</div>
 				</div>
 			</div>
 		</div>
@@ -444,14 +454,14 @@
 				skipParent: 0,
 				exceptionsParent: 1,
 				
-				passChild: 1,
-				failChild: 2,
+				passChild: 2,
+				failChild: 3,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
 				skipChild: 0,
 				infoChild: 0,
-				exceptionsChild: 2,
+				exceptionsChild: 3,
 				
 				passGrandChild: 0,
 				failGrandChild: 0,

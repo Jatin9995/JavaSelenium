@@ -8,7 +8,7 @@ public class Session2_LaunchChrome {
 	public static void main(String[] args) {
 
 		//Launch Chrome Browser
-		System.setProperty("webdriver.chrome.driver", "C:\\chromedrive\\crome\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "J:\\eclipse_Jdrive\\Chrome\\Chrome119\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		
 		//Maximize the size of Chrome browser (Syntax)
@@ -16,6 +16,7 @@ public class Session2_LaunchChrome {
 		
 		//Launch Google.com (Syntax)
 		driver.navigate().to("https:\\www.google.com");
+		
 		
 		//Launch facebook.com (Syntax)
 		driver.navigate().to("https:\\www.facebook.com");
@@ -43,6 +44,7 @@ public class Session2_LaunchChrome {
 		
 		String handle=driver.getWindowHandle();
 		System.out.println("Window handle id:"+handle);
+		driver.close();
 
 
 

@@ -19,7 +19,7 @@ public class CaptureScreenshot {
 	TakesScreenshot srcShot= ((TakesScreenshot)driver);
 File srcfile = srcShot.getScreenshotAs(OutputType.FILE);
 String destination = "J:\\\\eclipse_Jdrive\\\\JavaSelenium\\\\ScreenShot\\\\myextent.png";
-File destiFile=new File(destination);
+File destiFile=new File("J:\\\\\\\\eclipse_Jdrive\\\\\\\\JavaSelenium\\\\\\\\ScreenShot\\\\\\\\myextent.png");
 FileUtils.copyFile(srcfile, destiFile);
 return destination;
 

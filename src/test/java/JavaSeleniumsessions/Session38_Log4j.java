@@ -21,7 +21,7 @@ public class Session38_Log4j {
 		System.out.println("This is logger demo...");
 		log.info("this is a information test");
 		log.fatal("This is a fatal test");
-		log.notify();
+		//log.notify();
 		log.debug("This is for debug test");
 		log.warn("This is for the warning test");
 		

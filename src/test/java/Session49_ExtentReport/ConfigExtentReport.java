@@ -44,7 +44,7 @@ public class ConfigExtentReport {
 	public void Logintest() {
 		
 		test=reports.createTest("Login Test");  //we have given the name  of the method in extent report
-		System.setProperty("webdriver.chrome.driver", "J:\\eclipse_Jdrive\\Chrome\\Chrome2\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "J:\\eclipse_Jdrive\\Chrome\\Chrome119\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.navigate().to("https://www.saucedemo.com/");
@@ -60,7 +60,7 @@ public class ConfigExtentReport {
 	public void Logintest2() {
 		
 		test=reports.createTest("Login Test2");  //we have given the name  of the method in extent report
-		System.setProperty("webdriver.chrome.driver", "J:\\eclipse_Jdrive\\Chrome\\Chrome2\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "J:\\eclipse_Jdrive\\Chrome\\Chrome119\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.navigate().to("https://www.saucedemo.com/");

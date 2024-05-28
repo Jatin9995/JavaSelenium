@@ -11,7 +11,7 @@ public class Session12_Howtouploadfiles {
 
 	public static void main(String[] args) throws FindFailed {
 
-		System.setProperty("webdriver.chrome.driver", "J:\\eclipse_Jdrive\\Chrome\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "J:\\eclipse_Jdrive\\Chrome\\Chrome119\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 	
@@ -29,14 +29,14 @@ String inputfilepath = "C:\\Users\\jatin\\Desktop\\Sikuli\\Textbox2.png";
 		
 //Provide the Location of the image through pattern class which will be Readable by sikuli.	
 
-Pattern file=new Pattern(inputfilepath);
 Pattern open=new Pattern(openbuttom);
+Pattern file=new Pattern(inputfilepath);
+
 
 Screen src=new Screen();
 src.type(file, "J:\\jatin resume.docx");
 src.click(open);
 
-		
 		
 		
 	}

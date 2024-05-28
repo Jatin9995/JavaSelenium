@@ -36,8 +36,6 @@ public class Session13_Howtohandlepop {
 		
 		//click on ok
 		driver.switchTo().alert().accept();
-					
-		
 		
 	}
 

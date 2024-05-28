@@ -17,6 +17,7 @@ public class Session35_TestNGAssertion {
 //Hardassert me test methods fail hone pe AssertException throw karta hai or further test methods ka execution stop ho jata hai.
 	//AssertEquals, AssertNotEquals, AssertTrue, AssertFalse:- ye sab hard asserts hia.
 	
+	
 	//SoftAssert:- softassert  exception throw nahi karta and further test methods ko execute hone deta hai. exception last me yhrow karta hai jab saare test methods execute ho jate hai.
 	//to use the soft assert, u have to use testng softasser class. softassert class ka object create karte hai.
 	 
@@ -26,7 +27,7 @@ public class Session35_TestNGAssertion {
 
 	public void VerifyApp() {
 		
-		System.setProperty("webdriver.chrome.driver", "J:\\eclipse_Jdrive\\Chrome\\Chrome2\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "J:\\eclipse_Jdrive\\Chrome\\Chrome119\\chromedriver.exe");
 		driver=new ChromeDriver();
 	driver.manage().window().maximize();
 	driver.navigate().to("https://www.saucedemo.com/");

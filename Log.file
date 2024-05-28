@@ -1,1 +1,20 @@
 2023-09-19 00:39:53 INFO  loginPage:30 - this is a information test
+2023-12-14 01:34:11 INFO  setuplog:22 - this is a information test
+2023-12-14 01:34:11 FATAL setuplog:23 - This is a fatal test
+2023-12-14 01:36:15 INFO  Log4j:13 - this is a information test
+2023-12-14 01:36:15 FATAL Log4j:14 - This is a fatal test
+2023-12-14 01:36:15 WARN  Log4j:15 - This is for the warning test
+2024-05-22 02:17:42 INFO  setuplog:22 - this is a information test
+2024-05-22 02:17:42 FATAL setuplog:23 - This is a fatal test
+2024-05-22 02:18:35 INFO  setuplog:22 - this is a information test
+2024-05-22 02:18:35 FATAL setuplog:23 - This is a fatal test
+2024-05-22 02:18:35 WARN  setuplog:26 - This is for the warning test
+2024-05-22 02:19:52 INFO  setuplog:22 - this is a information test
+2024-05-22 02:19:52 FATAL setuplog:23 - This is a fatal test
+2024-05-22 02:19:52 WARN  setuplog:26 - This is for the warning test
+2024-05-22 02:20:26 INFO  setuplog:22 - this is a information test
+2024-05-22 02:20:26 FATAL setuplog:23 - This is a fatal test
+2024-05-22 02:20:27 WARN  setuplog:26 - This is for the warning test
+2024-05-22 02:25:22 INFO  Log4j:13 - this is a information test
+2024-05-22 02:25:22 FATAL Log4j:14 - This is a fatal test
+2024-05-22 02:25:22 WARN  Log4j:15 - This is for the warning test
